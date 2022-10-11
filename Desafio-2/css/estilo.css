@@ -1,0 +1,266 @@
+* {
+  margin: 0;
+  padding: 0; }
+
+@font-face {
+  font-family: Cinzel;
+  src: url(../fonts/Cinzel-VariableFont_wght.ttf); }
+
+body {
+  font-family: Cinzel; }
+
+.customHeader {
+  background-color: #71cfc4;
+  font-size: 20px; }
+  .customHeader .logoFinca {
+    height: 200px;
+    width: 200px; }
+  .customHeader .botonesHeader:hover {
+    background-color: #6fb1b4;
+    font-size: 23px;
+    border-radius: 23px;
+    padding: 10px 23px;
+    color: #f9ecd1; }
+
+.mainPrincipales, .mainPrincipalesDos {
+  background-color: #274b58;
+  padding-bottom: 15px;
+  padding-top: 20px; }
+
+.prueba, .pruebaDos, .pruebaTres, .pruebaCuatro {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background-image: url(../img/barriles.webp);
+  background-size: cover;
+  color: black; }
+
+.pruebaDos, .pruebaTres {
+  background-image: url(../img/olives2.webp); }
+
+.pruebaTres {
+  background-image: url(../img/combi4.webp); }
+
+.pruebaCuatro {
+  background-image: url(../img/vinedo.webp); }
+
+.heroColor {
+  background-color: #f9ecd1; }
+
+h3 {
+  text-decoration: underline; }
+
+.letra {
+  letter-spacing: 2px;
+  margin-bottom: 1px; }
+
+.mainContacto {
+  background-color: #274b58;
+  padding-bottom: 15px;
+  padding-top: 15px; }
+
+.backCo {
+  background-color: #f9ecd1;
+  opacity: 75%;
+  text-align: center;
+  text-transform: uppercase; }
+
+.customImg {
+  height: 300px;
+  width: 600px; }
+
+.cardColor {
+  background-color: #f9ecd1; }
+
+.imgSize {
+  height: 400px;
+  width: 100%;
+  object-fit: cover; }
+
+.formularioDos {
+  width: 250px;
+  height: 200px;
+  border: 2px;
+  border-style: solid;
+  border-color: black; }
+
+.tituloFormulario {
+  color: black;
+  font-size: 30px;
+  margin-top: 15px;
+  margin-bottom: 15px; }
+
+.formularioContacto {
+  background-color: #f9ecd1;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-top: 10px; }
+
+.botonesFormulario {
+  margin-bottom: 15px;
+  background-color: #71cfc4; }
+
+.formularioTxt {
+  width: 250px;
+  border-style: solid;
+  border-color: black; }
+
+.tituloMapa {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  color: black;
+  padding-top: 20px; }
+
+.marcoMapa {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  color: #f9ecd1;
+  margin-bottom: 20px; }
+
+.customFooter {
+  background-color: #71cfc4;
+  font-size: 20px; }
+
+.imgFooter {
+  width: 50px;
+  padding-top: 15px; }
+
+[class^="imghvr-"],
+[class*=" imghvr-"] {
+  position: relative;
+  display: inline-block;
+  margin: 0;
+  max-width: 100%;
+  background-color: #274b58;
+  color: #fff;
+  overflow: hidden;
+  -webkit-backface-visibility: hidden;
+  backface-visibility: hidden;
+  -moz-osx-font-smoothing: grayscale;
+  transform: translateZ(0); }
+  [class^="imghvr-"] > img,
+  [class*=" imghvr-"] > img {
+    vertical-align: top;
+    max-width: 100%; }
+  [class^="imghvr-"] figcaption,
+  [class*=" imghvr-"] figcaption {
+    background-color: #274b58;
+    padding: 30px;
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    color: #f9ecd1; }
+    [class^="imghvr-"] figcaption h1,
+    [class^="imghvr-"] figcaption h2,
+    [class^="imghvr-"] figcaption h3,
+    [class^="imghvr-"] figcaption h4,
+    [class^="imghvr-"] figcaption h5,
+    [class^="imghvr-"] figcaption h6,
+    [class*=" imghvr-"] figcaption h1,
+    [class*=" imghvr-"] figcaption h2,
+    [class*=" imghvr-"] figcaption h3,
+    [class*=" imghvr-"] figcaption h4,
+    [class*=" imghvr-"] figcaption h5,
+    [class*=" imghvr-"] figcaption h6 {
+      color: #f9ecd1; }
+  [class^="imghvr-"] a,
+  [class*=" imghvr-"] a {
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    z-index: 1; }
+
+[class^="imghvr-"],
+[class*=" imghvr-"],
+[class^="imghvr-"]:before,
+[class^="imghvr-"]:after,
+[class*=" imghvr-"]:before,
+[class*=" imghvr-"]:after,
+[class^="imghvr-"] *,
+[class*=" imghvr-"] *,
+[class^="imghvr-"] *:before,
+[class^="imghvr-"] *:after,
+[class*=" imghvr-"] *:before,
+[class*=" imghvr-"] *:after {
+  box-sizing: border-box;
+  transition: all 0.35s ease; }
+
+/* imghvr-flip-*
+   ----------------------------- */
+[class^="imghvr-flip-"],
+[class*=" imghvr-flip-"] {
+  perspective: 50em; }
+  [class^="imghvr-flip-"] img,
+  [class*=" imghvr-flip-"] img {
+    backface-visibility: hidden; }
+  [class^="imghvr-flip-"] figcaption,
+  [class*=" imghvr-flip-"] figcaption {
+    opacity: 0; }
+  [class^="imghvr-flip-"]:hover > img,
+  [class*=" imghvr-flip-"]:hover > img {
+    opacity: 0; }
+  [class^="imghvr-flip-"]:hover figcaption,
+  [class*=" imghvr-flip-"]:hover figcaption {
+    opacity: 1;
+    transition-delay: 0.14s; }
+
+/* imghvr-flip-horiz
+   ----------------------------- */
+.imghvr-flip-horiz figcaption {
+  transform: rotateX(90deg);
+  transform-origin: 0% 50%; }
+
+.imghvr-flip-horiz:hover img {
+  transform: rotateX(-180deg); }
+
+.imghvr-flip-horiz:hover figcaption {
+  transform: rotateX(0deg); }
+
+/* imghvr-flip-vert
+   ----------------------------- */
+.imghvr-flip-vert figcaption {
+  transform: rotateY(90deg);
+  transform-origin: 50% 0%; }
+
+.imghvr-flip-vert:hover > img {
+  transform: rotateY(-180deg); }
+
+.imghvr-flip-vert:hover figcaption {
+  transform: rotateY(0deg); }
+
+/* imghvr-flip-diag-1
+   ----------------------------- */
+.imghvr-flip-diag-1 figcaption {
+  transform: rotate3d(1, -1, 0, 100deg); }
+
+.imghvr-flip-diag-1:hover > img {
+  transform: rotate3d(-1, 1, 0, 100deg); }
+
+.imghvr-flip-diag-1:hover figcaption {
+  transform: rotate3d(0, 0, 0, 0deg); }
+
+@media screen and (max-width: 432px) {
+  .navbar-brand {
+    display: none; }
+  .prueba, .pruebaDos, .pruebaTres, .pruebaCuatro {
+    background-image: none; }
+  .backCo {
+    background-color: #274b58;
+    color: #f9ecd1; }
+  .cardColor {
+    margin-bottom: 15px; } }
+
+@media screen and (max-width: 820px) {
+  .cardColor {
+    margin-bottom: 15px; } }
+
+@media screen and (max-width: 1200px) {
+  .cardColor {
+    margin-bottom: 15px; } }
