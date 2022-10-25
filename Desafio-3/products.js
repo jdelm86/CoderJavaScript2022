@@ -1,7 +1,7 @@
 const productos = [
     {
         id: 1,
-        nombre: 'Torrontes',
+        nombre:"Torrontes",
         precio: 3500,
         img: "./img/torrontes-1.webp",
     },

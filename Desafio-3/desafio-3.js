@@ -2,14 +2,14 @@ const shopContent = document.getElementById("shopContent");
 const verCarrito = document.getElementById("verCarrito");
 const modalContainer = document.getElementById("modal-container");
 
-let carrito = [];
+let carrito = JSON.parse(localStorage.getItem("cart")) || [];
 
 productos.forEach((product) => {
     let content = document.createElement("div");
     content.className = "card"
     content.innerHTML = `
     <img src="${product.img}">
-    <h3>"${product.nombre}</h3>
+    <h3>${product.nombre}</h3>
     <p class="price">$${product.precio}</p>
     `;
 
@@ -27,7 +27,8 @@ productos.forEach((product) => {
             nombre: product.nombre,
             precio: product.precio,
         });
-        console.log(carrito)
+        console.log(carrito);
+        saveLocal();
     });
 }); 
 
@@ -72,3 +73,10 @@ verCarrito.addEventListener("click", () => {
 
     modalContainer.append(totalBuying);
 });
+
+
+const saveLocal = () =>{
+    localStorage.setItem("cart", JSON.stringify(carrito));
+};
+
+
