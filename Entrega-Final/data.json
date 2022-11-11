@@ -1,0 +1,94 @@
+
+[
+    {
+        "id": 1,
+        "nombre": "Torrontes",
+        "precio": 3500,
+        "cantidad": 1,
+        "img": "./img/torrontes-1.webp"
+    },
+    {
+        "id": 2,
+        "nombre": "Chardonnay",
+        "precio": 3500,
+        "cantidad": 1,
+        "img": "./img/chardonnay.webp"
+    },
+    {
+        "id": 3,
+        "nombre": "Malbec",
+        "precio": 4000,
+        "cantidad": 1,
+        "img": "./img/malbec.webp"
+    },
+    {
+        "id": 4,
+        "nombre": "Cabernet Sauvignon",
+        "precio": 4000,
+        "cantidad": 1,
+        "img": "./img/cabernet.webp"
+    },
+    {
+        "id":5,
+        "nombre": "Aceitunas Variedad Arauco",
+        "precio": 600,
+        "cantidad": 1,
+        "img": "./img/arauco.webp"
+    },
+    {
+        "id":6,
+        "nombre": "Aceitunas Rellenas",
+        "precio": 850,
+        "cantidad": 1,
+        "img": "./img/acetunas-rellenas.webp"
+    },
+    {
+        "id":7,
+        "nombre": "Aceite de Oliva",
+        "precio": 700,
+        "cantidad": 1,
+        "img": "./img/aceite-de-oliva.webp"
+    },
+    {
+        "id":8,
+        "nombre": "Cata de Vinos",
+        "precio": 6000,
+        "cantidad": 1,
+        "img": "./img/cata.webp"
+    },
+    {
+        "id":9,
+        "nombre": "Tour por la Finca",
+        "precio": 8000,
+        "cantidad": 1,
+        "img": "./img/tours-rioja.webp"
+    },
+    {
+        "id":10,
+        "nombre": "Tour Nocturno",
+        "precio": 10000,
+        "cantidad": 1,
+        "img": "./img/night-vineyard.webp"
+    },
+    {
+        "id":11,
+        "nombre": "Tour de Bodega",
+        "precio": 5000,
+        "cantidad": 1,
+        "img": "./img/barriles3.webp"
+    },
+    {
+        "id":12,
+        "nombre": "Degustacion de Aceitunas",
+        "precio": 700,
+        "cantidad": 1,
+        "img": "./img/cata-aceitunas.webp"
+    },
+    {
+        "id":13,
+        "nombre": "Hospedaje en la Posada",
+        "precio": 11000,
+        "cantidad": 1,
+        "img": "./img/posada.webp"
+    }
+]

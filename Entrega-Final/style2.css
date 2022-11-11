@@ -1,0 +1,341 @@
+    * {
+        margin: 0;
+        padding: 0; }
+    
+    @font-face {
+        font-family: Cinzel;
+        src: url(../Entrega-Final/fonts/Cinzel-VariableFont_wght.ttf); }
+    
+    body {
+        font-family: Cinzel;
+        background-color: #274b58;
+    }
+    
+    .customHeader {
+        background-color: #71cfc4;
+        font-size: 20px; }
+        .customHeader .logoFinca {
+        height: 200px;
+        width: 200px; }
+        .customHeader .botonesHeader:hover {
+        background-color: #6fb1b4;
+        font-size: 23px;
+        border-radius: 23px;
+        padding: 10px 23px;
+        color: #f9ecd1; }
+    
+    .mainPrincipales, .mainPrincipalesDos {
+        background-color: #274b58;
+        padding-bottom: 15px;
+        padding-top: 20px; }
+    
+    .prueba, .pruebaDos, .pruebaTres, .pruebaCuatro {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        background-image: url(../img/barriles.webp);
+        background-size: cover;
+        color: black; }
+    
+    .pruebaDos, .pruebaTres {
+        background-image: url(../img/olives2.webp); }
+    
+    .pruebaTres {
+        background-image: url(../img/combi4.webp); }
+    
+    .pruebaCuatro {
+        background-image: url(../img/vinedo.webp); }
+    
+    .heroColor {
+        background-color: #f9ecd1; }
+    
+    h3 {
+        text-decoration: underline; }
+    
+    .letra {
+        letter-spacing: 2px;
+        margin-bottom: 1px; }
+    
+    .mainContacto {
+        background-color: #274b58;
+        padding-bottom: 15px;
+        padding-top: 15px; }
+    
+    .backCo {
+        background-color: #f9ecd1;
+        opacity: 75%;
+        text-align: center;
+        text-transform: uppercase; }
+    
+    .customImg {
+        height: 300px;
+        width: 600px; }
+    
+    .cardColor {
+        background-color: #f9ecd1; }
+    
+    .imgSize {
+        height: 400px;
+        width: 100%;
+        object-fit: cover; }
+    
+    .formularioDos {
+        width: 250px;
+        height: 200px;
+        border: 2px;
+        border-style: solid;
+        border-color: black; }
+    
+    .tituloFormulario {
+        color: black;
+        font-size: 30px;
+        margin-top: 15px;
+        margin-bottom: 15px; }
+    
+    .formularioContacto {
+        background-color: #f9ecd1;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        margin-top: 10px; }
+    
+    .botonesFormulario {
+        margin-bottom: 15px;
+        background-color: #71cfc4; }
+    
+    .formularioTxt {
+        width: 250px;
+        border-style: solid;
+        border-color: black; }
+    
+    .tituloMapa {
+        display: flex;
+        align-items: center;
+        flex-direction: column;
+        color: black;
+        padding-top: 20px; }
+    
+    .marcoMapa {
+        display: flex;
+        align-items: center;
+        flex-direction: column;
+        color: #f9ecd1;
+        margin-bottom: 20px; }
+    
+    .customFooter {
+        background-color: #71cfc4;
+        font-size: 20px; }
+    
+    .imgFooter {
+        width: 50px;
+        padding-top: 15px; }
+    
+
+/* VERRRRRRRR */
+.ver-carrito {
+    height: 100px;
+    width: 100px;
+    cursor: pointer;
+}
+
+.logoCarrito {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 20px;
+    margin-bottom: 20px;
+
+}
+
+/* product cards */
+.shop-content {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    margin-top: 30px;
+    margin-left: 80px;
+    margin-right: 80px;
+    margin-bottom: 30px;
+}
+
+.card {
+    max-width: 300px;
+    background-color: beige;
+    margin: 10px;
+    text-align: center;
+    font-family: Cinzel;
+}
+
+.card > img {
+    height: 250px;
+    width: 100%;
+}
+
+.card > p {
+    padding-top: 5px;
+}
+
+.price {
+    color: #274b58;
+    font-size: 22px;
+}
+
+.card button {
+    border: none;
+    outline: 0;
+    padding: 12px;
+    color: #274b58;
+    background-color: #71cfc4;
+    text-align: center;
+    cursor: pointer;
+    width: 100%;
+    font-size: 20px;
+}
+
+.comprar {
+    outline: 0;
+    padding: 12px;
+    margin-bottom: 12px;
+    color: #274b58;
+    background-color: #71cfc4;
+    text-align: center;
+    cursor: pointer;
+    width: 50%;
+    font-size: 20px;
+    border-radius: 3px;
+}
+
+.card button:hover {
+    opacity: 0.7;
+}
+
+.modal-container {
+    width: 80%;
+    margin: 0 10%;
+    max-height: 88vh;
+    color: #274b58;
+    background-color: beige;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    /* for the top */
+    position: fixed;
+    overflow: auto;
+    z-index: 9;
+    top: 12vh;
+    scrollbar-color: none;
+    border-radius: 3px;
+    
+}
+
+.modal-container::-webkit-scrollbar {
+    display: none;
+}
+
+.modal-header {
+    display: flex;
+    justify-content: space-between;
+    background-color: #71cfc4;
+    color: #fff;
+    width: 100%;
+}
+
+.modal-header-title {
+    justify-self: start;
+}
+
+.modal-header-button {
+    background-color: #71cfc4;
+    cursor: pointer;
+    font-size: 30px;
+    padding-left: 5px;
+    padding-right: 5px;
+    height: 45px;
+    width: 45px;
+    border-radius: 3px;
+}
+
+.modal-container > .modal-content {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    width: 70%;
+    margin: 10px;
+}
+
+.modal-container > div > img {
+    height: 120px;
+    width: 120px;
+}
+
+.total-content {
+    font-size: 25px;
+    padding: 20px;
+    text-align: center;
+    padding-top: 20px;
+}
+
+
+
+.delete-product  {
+    outline: 0;
+    padding: 5px;
+    margin-bottom: 5px;
+    color: #274b58;
+    background-color: #71cfc4;
+    text-align: center;
+    cursor: pointer;
+    width: 20%;
+    height: 50px;
+    font-size: 20px;
+    border-radius: 3px;
+}
+
+.sumar, .restar {
+    background-color: #71cfc4;
+    cursor: pointer;
+    font-size: 30px;
+    padding-left: 5px;
+    padding-right: 5px;
+    height: 50px;
+    width: 50px;
+    border-radius: 3px;
+}
+
+
+.cantidadCarrito {
+    background-color: #71cfc4;
+    color: #274b58;
+    border-radius: 50%;
+    font-size: 30px;
+    padding-left: 17px;
+    top: -40px;
+    right: 17px;
+    position: relative;
+    display: none;
+    width: 50px;
+}
+
+
+
+    
+    @media screen and (max-width: 432px) {
+        .navbar-brand {
+        display: none; }
+        .prueba, .pruebaDos, .pruebaTres, .pruebaCuatro {
+        background-image: none; }
+        .backCo {
+        background-color: #274b58;
+        color: #f9ecd1; }
+        .cardColor {
+        margin-bottom: 15px; } }
+    
+    @media screen and (max-width: 820px) {
+        .cardColor {
+        margin-bottom: 15px; } }
+    
+    @media screen and (max-width: 1200px) {
+        .cardColor {
+        margin-bottom: 15px; } }
+    
